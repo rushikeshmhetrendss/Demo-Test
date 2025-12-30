@@ -13,6 +13,16 @@ const Navbar = () => {
             <div className="navbar-container">
                 <div className="logo">
                     <h1>MyApp</h1>
+
+                     <h1>MyApp</h1>
+
+                      <h1>MyApp</h1>
+                       <h1>MyApp</h1>
+                        <h1>MyApp</h1>
+                         <h1>MyApp</h1>
+                          <h1>MyApp</h1>
+                           <h1>MyApp</h1>
+                            <h1>MyApp</h1>
                 </div>
                 <nav className={`nav-links ${isMenuOpen ? "active" : ""}`}>
                     <ul>
@@ -36,6 +46,22 @@ const Navbar = () => {
                                 Contact
                             </Link>
                         </li>
+                        <li>
+                            <Link to="/contact" className="nav-link">
+                                Contact
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to="/contact" className="nav-link">
+                                Contact
+                            </Link>
+                        </li><li>
+                            <Link to="/contact" className="nav-link">
+                                Contact
+                            </Link>
+                        </li>
+                        
                     </ul>
                 </nav>
                 <div className="hamburger" onClick={toggleMenu}>
